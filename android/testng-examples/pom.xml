@@ -14,9 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
-        <surefire.version>2.19.1</surefire.version>
-        <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
-        <config.file>default</config.file>
+        <surefire.version>2.22.2</surefire.version>
     </properties>
 
     <dependencies>
@@ -25,30 +23,35 @@
             <artifactId>testng</artifactId>
             <version>7.5</version>
         </dependency>
+        
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.13.0</version>
+            <version>4.16.1</version>
         </dependency>
+        
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>8.6.0</version>
         </dependency>
+        
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.11.0</version>
         </dependency>
+        
         <dependency>
             <groupId>com.googlecode.json-simple</groupId>
             <artifactId>json-simple</artifactId>
             <version>1.1.1</version>
         </dependency>
+        
         <dependency>
             <groupId>com.browserstack</groupId>
             <artifactId>browserstack-java-sdk</artifactId>
-            <version>1.20.0</version>
+            <version>1.50.7</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
